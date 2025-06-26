@@ -200,5 +200,5 @@ obj-$(CONFIG_CDX_BUS)		+= cdx/
 
 obj-$(CONFIG_S390)		+= s390/
 
-obj-$(CONFIG_UH)		+= uh/
+obj-$(CONFIG_AH)		+= uh/
 include $(srctree)/$(KCONFIG_EXT_PREFIX)Makefile.ext

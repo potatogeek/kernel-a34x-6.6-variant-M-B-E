@@ -2364,9 +2364,15 @@ endmenu # "Boot options"
 
 menu "Hypervisor"
 
+config AH
+	bool "Enable kdp minimal"
+	default y
+	help
+	  It enables minimal kdp for load bt connectivity.
+
 config UH
 	bool "Enable micro hypervisor feature"
-	default y
+	default n
 	help
 	  It enables a micro hypervisor.
 	  It's samsung's hypervisor.
