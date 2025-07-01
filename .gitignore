@@ -1,0 +1,5 @@
+build/bazel_common_rules/
+out/
+external/
+kernel/prebuilts/
+prebuilts/
